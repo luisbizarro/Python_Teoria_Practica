@@ -1,0 +1,13 @@
+    
+
+#Obtener los coeficientes estequiometricos
+coef = np.array([0,0,0,0,0,0,0,0,0,0,0,0,0,0])
+for i in range(0,14):
+    coef[i] = int(input("Ingrese el coeficiente estequiometrico de la sustancia {}: ".format(i+1)))
+print(coef)
+
+#Obtener los pesos moleculares
+pesos = np.array([0,0,0,0,0,0,0,0,0,0,0,0,0,0])
+for i in range(0,14):
+    pesos[i] = float(input("Ingrese el peso molecular de la sustancia {}: ".format(i+1)))
+print(pesos)
